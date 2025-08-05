@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import dotenv from "dotenv";
 dotenv.config();
-const resend = new Resend(process.env.RESEND_API);
+const resend = new Resend(process.env.RESEND_API_KEY);
 const email = process.env.EMAIL;
 
 console.log("resend token api: ", resend);

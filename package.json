@@ -1,0 +1,17 @@
+{
+  "name": "email-example",
+  "version": "1.0.0",
+  "description": "Project to show how to sen emailas with templates",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "dev": "node app.js"
+  },
+  "author": "Dennis-mf",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "resend": "^4.8.0"
+  }
+}
